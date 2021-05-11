@@ -10,5 +10,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Build & Push
+      env:
+        DOCKER_USER: ${{secrets.DOCKER_USER}}
+        DOCKER_PASS: ${{secrets.DOCKER_PASS}}
       run: |
         bash main.sh

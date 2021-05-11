@@ -23,7 +23,7 @@ else
     git commit -am ${latest_version}
     git push -v --progress
 
-    docker login -u $DOCKER_USER -p $DOCKER_PASS
-    docker build -t ${{secrets.DOCKER_USER}}/caddy:latest -t ${{secrets.DOCKER_USER}}/caddy:${latest_version} .
-    docker push ${{secrets.DOCKER_USER}}/caddy
+    docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
+    docker build -t ${DOCKER_USER}/caddy:latest -t ${DOCKER_USER}/caddy:${latest_version} .
+    docker push ${DOCKER_USER}/caddy
 fi
