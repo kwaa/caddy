@@ -1,0 +1,14 @@
+name: main
+on:
+  schedule:
+    - cron: "30 0 * * FRI"
+  workflow_dispatch:
+jobs:
+  build_and_push:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Build & Push
+      run: |
+        bash main.sh
