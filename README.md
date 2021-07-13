@@ -11,9 +11,9 @@ caddy, build with:
 ## Download
 
 ```bash
-wget -O /usr/bin/caddy https://github.com/kwaa/caddy/raw/master/caddy
+wget -O /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy
 
-curl -o /usr/bin/caddy https://github.com/kwaa/caddy/raw/master/caddy
+curl -o /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy
 ```
 
 or:
