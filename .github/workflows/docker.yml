@@ -4,8 +4,9 @@ on:
     paths:
       - 'caddy_amd64'
       - 'caddy_arm64'
+  workflow_dispatch:
 jobs:
-  registry-cache:
+  docker:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout

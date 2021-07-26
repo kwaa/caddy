@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: Build & Push
       run: |
         bash main.sh
