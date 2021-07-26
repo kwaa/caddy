@@ -11,15 +11,17 @@ caddy, build with:
 ## Download
 
 ```bash
-wget -O /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy
+wget -O /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy_amd64 # amd64
 
-curl -o /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy
+wget -O /usr/bin/caddy https://github.com/kwaa/caddy/raw/main/caddy_arm64 # arm64
 ```
 
 or:
 
 ```bash
-docker pull kwaabot/caddy #UNTESTED
+docker pull kwaabot/caddy # DockerHub
+docker pull quay.io/kwaabot/caddy # Quay.io
+docker pull ghcr.io/kwaa/caddy # GitHub Container Registry
 ```
 
 ## Fork

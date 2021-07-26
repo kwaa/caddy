@@ -1,6 +1,8 @@
 FROM alpine:latest
 
-COPY caddy /usr/bin/
+ARG TARGETARCH
+
+COPY caddy_${TARGETARCH} /usr/bin/caddy
 
 ENTRYPOINT [ "/usr/bin/caddy", "run" ]
 
