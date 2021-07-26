@@ -20,8 +20,8 @@ or:
 
 ```bash
 docker pull kwaabot/caddy # DockerHub
+
 docker pull quay.io/kwaabot/caddy # Quay.io
-docker pull ghcr.io/kwaa/caddy # GitHub Container Registry
 ```
 
 ## Fork
