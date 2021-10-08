@@ -1,4 +1,4 @@
-name: main
+name: build
 on:
   schedule:
     - cron: "30 0 * * FRI"

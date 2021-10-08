@@ -1,7 +1,8 @@
 # kwaa/caddy
 
-![build](https://github.com/kwaa/caddy/actions/workflows/main.yml/badge.svg)
+![build](https://github.com/kwaa/caddy/actions/workflows/build.yml/badge.svg)
 ![docker](https://github.com/kwaa/caddy/actions/workflows/docker.yml/badge.svg)
+![docker pulls](https://img.shields.io/docker/pulls/kwaabot/caddy.svg)
 
 caddy, build with:
 
