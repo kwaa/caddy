@@ -7,7 +7,8 @@ then
 else
     git config --local user.name 'GitHub Action'
     git config --local user.email 'action@github.com'
-    go get -u github.com/caddyserver/xcaddy/cmd/xcaddy
+    go env -w GO111MODULE=off
+    go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
     for arch in amd64 arm64
     do
         env GOOS=linux GOARCH=${arch} xcaddy build latest \
