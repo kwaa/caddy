@@ -11,6 +11,7 @@ caddy, build with:
 - [mholt/caddy-webdav](https://github.com/mholt/caddy-webdav)
 - [lindenlab/caddy-s3-proxy](https://github.com/lindenlab/caddy-s3-proxy)
 - [klzgrad/forwardproxy](https://github.com/klzgrad/forwardproxy)
+- [kwaa/caddy2-proxyprotocol](https://github.com/kwaa/caddy2-proxyprotocol)
 
 ## Download
 
