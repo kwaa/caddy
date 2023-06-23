@@ -15,7 +15,7 @@ else
         --with github.com/mholt/caddy-l4 \
         --with github.com/mholt/caddy-webdav \
         --with github.com/lindenlab/caddy-s3-proxy \
-        --with github.com/caddyserver/forwardproxy@caddy2=github.com/klzgrad/forwardproxy@naive \
+        --with github.com/caddyserver/forwardproxy@caddy2=github.com/kwaa/forwardproxy@naive \
         --with github.com/kwaa/caddy2-proxyprotocol@master \
         --output caddy_${arch}
         git add caddy_${arch}
